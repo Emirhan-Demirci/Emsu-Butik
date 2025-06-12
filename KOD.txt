@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emsu Butik - Kadın Giyim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fffaf8;
+      color: #333;
+    }
+    header {
+      background-color: #f5f5f5;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: #d07d84;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #444;
+      font-weight: 500;
+    }
+    .hero {
+      background-image: url('https://via.placeholder.com/1600x600?text=Emsu+Yeni+Sezon');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    .categories, .featured, .instagram {
+      padding: 3rem 2rem;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      color: #d07d84;
+    }
+    .category-grid, .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .category, .product {
+      background-color: #fff;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .category img, .product img {
+      width: 100%;
+      display: block;
+    }
+    .category h3, .product h3 {
+      padding: 1rem;
+      font-size: 1rem;
+    }
+    footer {
+      background-color: #f5f5f5;
+      padding: 2rem;
+      text-align: center;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Emsu</h1>
+    <nav>
+      <a href="#">Anasayfa</a>
+      <a href="#">\u00dcr\u00fcnler</a>
+      <a href="#">Hakk\u0131m\u0131zda</a>
+      <a href="#">\u0130leti\u015fim</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Yeni Sezon Geldi - \u015eimdi Ke\u015ffet!</h2>
+  </section>
+
+  <section class="categories">
+    <h2 class="section-title">Kategoriler</h2>
+    <div class="category-grid">
+      <div class="category">
+        <img src="https://via.placeholder.com/300x300?text=Tunik" alt="Tunik">
+        <h3>Tunikler</h3>
+      </div>
+      <div class="category">
+        <img src="https://via.placeholder.com/300x300?text=Abiye" alt="Abiye">
+        <h3>Abiyeler</h3>
+      </div>
+      <div class="category">
+        <img src="https://via.placeholder.com/300x300?text=Oversize" alt="Oversize">
+        <h3>Oversize</h3>
+      </div>
+      <div class="category">
+        <img src="https://via.placeholder.com/300x300?text=\u00c7anta" alt="\u00c7anta">
+        <h3>\u00c7antalar</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured">
+    <h2 class="section-title">Yeni Gelenler</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x400?text=\u00dcr\u00fcn+1" alt="\u00dcr\u00fcn 1">
+        <h3>Modern Tunik 429 TL</h3>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x400?text=\u00dcr\u00fcn+2" alt="\u00dcr\u00fcn 2">
+        <h3>Pileli Abiye 599 TL</h3>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x400?text=\u00dcr\u00fcn+3" alt="\u00dcr\u00fcn 3">
+        <h3>Oversize Sweat 299 TL</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="instagram">
+    <h2 class="section-title">Instagram'da Emsu</h2>
+    <p style="text-align:center;">Bizi takip et: @emsubutik</p>
+    <!-- G\u00f6m\u00fcl\u00fc IG i\u00e7eri\u011fi yaz\u0131l\u0131mc\u0131 taraf\u0131ndan eklenecek -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Emsu Butik | T\u00fcm haklar\u0131 sakl\u0131d\u0131r.</p>
+  </footer>
+</body>
+</html>
